@@ -107,7 +107,7 @@
 
 	    <div class="section">
 	    	<div class="container">
-		    		<form action="controller/ControleCliente.php" method="post">
+		    		<form action="controller/ControllerUser.php" method="post">
 		    			<h1 id="h1-white">Cadastrar</h1>
 		    			<div class="form-group">
 		    				<label for="nome">Nome</label>
@@ -119,9 +119,9 @@
 		    			</div>
 		    			<div class="form-group">
 		    				<label for="email">E-mail</label>
-		    				<input type="email" name="nome" class="form-control" id="nome">
+		    				<input type="email" name="email" class="form-control" id="email">
 		    			</div>
-		    			<input type="submit" name="" class="btn btn-primary btn-block" value="+">
+		    			<input type="submit" name="acao" class="btn btn-primary btn-block" value="+">
 		    		</form>
 	    	</div>
 	    </div>
