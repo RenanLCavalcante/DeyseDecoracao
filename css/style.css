@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Itim|Lobster+Two');
+
+#menu li{
+  display: inline-block;
+  margin: 10px;
+  color: #000;
+  background: #fff;
+  background: rgba(255,255,255,0.5);
+  -webkit-border-radius:10px;
+  border-radius: 10px;
+}
+
+#menu li.active{
+  background: #666;
+  background: rgba(0,0,0,0.5);
+  color: #fff;
+}
+
+#menu li a{
+  text-decoration: none;
+  color: #000;
+}
+
+#menu li.active a:hover{
+  color: #000;
+}
+
+#menu li:hover{
+  background: rgba(255,255,255,0.8);
+}
+
+#menu li a,
+#menu li.active a{
+  padding: 9px 18px;
+  display: block;
+}
+
+#menu li.active a{
+  color: #fff;
+}
+
+#menu{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 40px;
+  z-index: 70;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: 'Lobster Two',cursive,'Itim', cursive,'Comfortaa', cursive;
+  font-size: 1.5em;
+}
+
+#fontLobsterh1{
+  font-family: 'Lobster Two',cursive;
+  font-size: 3.5em;
+  text-align: center;
+  color: #000;
+  margin-bottom: 300px;
+}
+
+#h1-qs{
+  font-family: 'Lobster Two',cursive;
+  font-size: 3.5em;
+  text-align: center;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.imgresize{
+   max-width: 100%;
+   height:auto;
+}
+
+p{
+  color: #000;
+  font-family: 'Comfortaa', cursive;
+}
+
+#section01{
+  background-image: url("../img/home01.jpg");
+  background-size: cover;
+  max-width: 100%;
+  height: auto;
+}
+
+#h2-p{
+  font-family: 'Lobster Two',cursive;
+  font-size: 2.5em;
+  color: #000;
+  margin-top: 60px;
+  text-align:center;
+}
+
+#a-btn{
+  text-decoration: none;
+  font-family: 'Lobster Two',cursive;
+  font-size: 3em;
+  color: white;
+}
+
+label{
+  font-family: 'Lobster Two',cursive;
+  font-size: 1.5em;
+  color: white;
+}
+
+#h1-white{
+  font-family: 'Lobster Two',cursive;
+  font-size: 3.5em;
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+}
